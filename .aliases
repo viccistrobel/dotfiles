@@ -1,0 +1,15 @@
+
+alias dev="cd ~/development"
+alias bck="cd ~/development/backend"
+
+alias reload="source ~/.zshrc"
+
+alias editalias="nano ~/.dotfiles/.aliases"
+alias editfunction="nano ~/.dotfiles/.functions"
+
+# Git aliases
+alias gst="git status"
+
+# Always use color output for `ls`
+colorflag="-G"
+alias ls="command ls ${colorflag}"
